@@ -48,6 +48,10 @@ Hey, Netology
 
 ![image](img/01.05.png)
 
+![image](img/01.05.01.png)
+
+![image](img/01.05.02.png)
+
 </details>
 
 - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 (ТОЛЬКО ЕСЛИ ЕСТЬ ДОСТУП). 
