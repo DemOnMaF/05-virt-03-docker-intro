@@ -64,7 +64,7 @@ Hey, Netology
 <summary>Ответ</summary>
 
 
-![Ссылка на репозиторий](https://hub.docker.com/repository/docker/demonmaf/custom-nginx/general)
+[Ссылка на репозиторий](https://hub.docker.com/repository/docker/demonmaf/custom-nginx/general)
 
 </details>
 
