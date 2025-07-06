@@ -14,7 +14,23 @@
 - Установите docker и docker compose plugin на свою linux рабочую станцию или ВМ.
 - Если dockerhub недоступен создайте файл /etc/docker/daemon.json с содержимым: ```{"registry-mirrors": ["https://mirror.gcr.io", "https://daocloud.io", "https://c.163.com/", "https://registry.docker-cn.com"]}```
 - Зарегистрируйтесь и создайте публичный репозиторий  с именем "custom-nginx" на https://hub.docker.com (ТОЛЬКО ЕСЛИ У ВАС ЕСТЬ ДОСТУП);
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/01.03.png)
+
+</details>
+
 - скачайте образ nginx:1.21.1;
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/01.04.png)
+
+</details>
+
 - Создайте Dockerfile и реализуйте в нем замену дефолтной индекс-страницы(/usr/share/nginx/html/index.html), на файл index.html с содержимым:
 ```
 <html>
@@ -26,8 +42,32 @@ Hey, Netology
 </body>
 </html>
 ```
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/01.05.png)
+
+</details>
+
 - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 (ТОЛЬКО ЕСЛИ ЕСТЬ ДОСТУП). 
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/01.06.png)
+
+</details>
+
 - Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general .
+<details>
+<summary>Ответ</summary>
+
+
+![Ссылка на репозиторий](https://hub.docker.com/repository/docker/demonmaf/custom-nginx/general)
+
+</details>
+
 
 ## Задача 2
 1. Запустите ваш образ custom-nginx:1.0.0 командой docker run в соответвии с требованиями:
