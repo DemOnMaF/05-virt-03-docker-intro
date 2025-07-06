@@ -168,7 +168,7 @@ Hey, Netology
 <summary>Ответ</summary>
 
 
-![image](img/03.07.png)
+![image](img/03.08.png)
 
 </details>
 
