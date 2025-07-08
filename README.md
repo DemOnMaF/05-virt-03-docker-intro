@@ -301,6 +301,14 @@ services:
 </details>
 
 4. Откройте страницу "https://127.0.0.1:9000" и произведите начальную настройку portainer.(логин и пароль адмнистратора)
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/05.04.png)
+
+</details>
+
 5. Откройте страницу "http://127.0.0.1:9000/#!/home", выберите ваше local  окружение. Перейдите на вкладку "stacks" и в "web editor" задеплойте следующий компоуз:
 
 ```
@@ -312,7 +320,29 @@ services:
     ports:
       - "9090:80"
 ```
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/05.05.png)
+
+![image](img/05.05.01.png)
+
+![image](img/05.05.02.png)
+
+</details>
+
 6. Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect". В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver".
+<details>
+<summary>Ответ</summary>
+
+
+![image](img/05.06.png)
+
+![image](img/05.06.01.png)
+
+</details>
+
 
 7. Удалите любой из манифестов компоуза(например compose.yaml).  Выполните команду "docker compose up -d". Прочитайте warning, объясните суть предупреждения и выполните предложенное действие. Погасите compose-проект ОДНОЙ(обязательно!!) командой.
 
