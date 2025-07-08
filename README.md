@@ -330,6 +330,7 @@ services:
 
 ![image](img/05.05.02.png)
 
+
 </details>
 
 6. Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect". В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver".
